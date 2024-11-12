@@ -1,0 +1,63 @@
+     }
+    </style>
+</head>
+<body>
+   
+    button {
+        display: inline-block;       
+        background-color: #f2f2f2;
+        /* padding: 8px 16px; */
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 8px;
+        transition: all .3s;
+        margin-right: 8px;
+      }
+      .button:hover{
+        background-color:#e5e5e5;
+        cursor: pointer;
+      }
+<div class="button">ข่าวสาร</div>
+    <div class="button">เพลง</div>
+    <div class="button">เกม</div>
+    <div class="button">ไลฟ์สด</div>
+    <button>Add Element</button>
+    <div id="results">
+
+
+    </div>
+    <script src="script.js"></script>
+  </script>
+  function addElement(){
+
+<button onclick="addElement()">Add Element</button>
+    <div id="results"></div>
+
+    <script>
+      function addElement() {
+        let newElement = document.createElement("p");
+        newElement.innerHTML = "Hello World";
+        let result = document.getElementById("results");
+        result.appendChild(newElement);
+      }
+    </script>
+
+
+    
+
+
+
+
+
+
+  }
+</script>
+
+
+
+
+
+</body>
+</html>
